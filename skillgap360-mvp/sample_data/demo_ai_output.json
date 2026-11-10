@@ -1,0 +1,77 @@
+{
+  "ML Engineer": {
+    "assessments": [
+      {
+        "skill": "Python programming",
+        "level": 2,
+        "evidence": [
+          "Wrote Python scripts to generate synthetic test data and automate regression checks for the claims API.",
+          "cleaned 50,000 claim records with pandas"
+        ],
+        "reasoning": "Python used in real project work, but mainly for scripting rather than production ML code."
+      },
+      {
+        "skill": "Statistics and probability",
+        "level": 1,
+        "evidence": [
+          "coursework in probability and statistics"
+        ],
+        "reasoning": "Only academic coursework; no applied statistical analysis shown."
+      },
+      {
+        "skill": "Machine learning algorithms",
+        "level": 2,
+        "evidence": [
+          "trained a logistic regression model in scikit-learn to flag suspicious claims",
+          "built a basic decision tree classifier while following an online course"
+        ],
+        "reasoning": "One applied model in a hackathon proof-of-concept plus course work."
+      },
+      {
+        "skill": "Data wrangling (SQL, pandas)",
+        "level": 3,
+        "evidence": [
+          "Wrote complex SQL queries and stored procedures on Oracle to generate monthly claims reports for the client.",
+          "cleaned 50,000 claim records with pandas"
+        ],
+        "reasoning": "Repeated, independent SQL work in production plus pandas data cleaning."
+      },
+      {
+        "skill": "Deep learning frameworks (PyTorch, TensorFlow)",
+        "level": 0,
+        "evidence": [],
+        "reasoning": "No evidence of PyTorch or TensorFlow use."
+      },
+      {
+        "skill": "MLOps and model deployment",
+        "level": 1,
+        "evidence": [
+          "Containerised three Java services with Docker and set up Jenkins pipelines for build and unit tests."
+        ],
+        "reasoning": "Transferable deployment and CI experience, but no ML model has been deployed."
+      },
+      {
+        "skill": "Software engineering practices (Git, testing, code review)",
+        "level": 4,
+        "evidence": [
+          "Led code reviews for a team of five engineers and introduced JUnit coverage targets of 80%."
+        ],
+        "reasoning": "Leads code review and sets testing standards for the team."
+      },
+      {
+        "skill": "Cloud ML platform (Azure ML, SageMaker, Vertex AI)",
+        "level": 1,
+        "evidence": [
+          "Microsoft Certified: Azure Fundamentals (AZ-900)."
+        ],
+        "reasoning": "Azure certification and Azure Functions work, but no managed ML platform use."
+      }
+    ],
+    "other_skills": [
+      {"skill": "Java / Spring Boot microservices", "evidence": "Built and maintained Spring Boot microservices for policy and claims processing"},
+      {"skill": "Serverless (Azure Functions)", "evidence": "Moved the reporting job from on-premise servers to Azure Functions"},
+      {"skill": "Stakeholder presentation", "evidence": "presented results to the delivery head"}
+    ],
+    "summary": "Strongest evidence is in software engineering practice and SQL data work, with one applied ML proof-of-concept. Evidence is missing for deep learning, statistics in practice and deploying an ML model."
+  }
+}
